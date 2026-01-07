@@ -59,7 +59,7 @@ The AI Recipe Generator is a full-stack web application that uses artificial int
 
 ```
 ai-recipe-generator/
-├── recipe-app/                 # Frontend React Application
+├── frontend/                 # Frontend React Application
 │   ├── src/
 │   │   ├── App.tsx            # Main React component with UI logic
 │   │   ├── main.tsx           # React application entry point
@@ -69,7 +69,7 @@ ai-recipe-generator/
 │   ├── tailwind.config.js     # Tailwind CSS configuration
 │   ├── vite.config.ts         # Vite build configuration
 │   └── postcss.config.js      # PostCSS configuration
-├── recipe-backend/             # Backend Node.js API
+├── backend/             # Backend Node.js API
 │   ├── server.js              # Express server with Cohere integration
 │   ├── package.json           # Backend dependencies and scripts
 │   └── .env                   # Environment variables (API keys)
