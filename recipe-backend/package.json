@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "node server.js"
   },
+  "type": "module",
   "dependencies": {
     "cohere-ai": "^4.12.0",
     "cors": "^2.8.5",
