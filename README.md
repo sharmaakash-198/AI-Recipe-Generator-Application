@@ -1,10 +1,10 @@
-# AI Recipe Generator — Intelligent Cooking Assistant ⚡
+# AI Recipe Generator — Intelligent Cooking Assistant 
 
 A compact, full-stack app that uses Cohere AI to generate detailed, cookable recipes from user-provided ingredients. This repo contains two folders: `recipe-backend` (Express API) and `recipe-frontend` (Vite + React UI).
 
 ---
 
-## 🚀 Quick Start (short and actionable)
+## Quick Start (short and actionable)
 
 Prerequisites:
 - Node.js 16+
@@ -32,12 +32,12 @@ npm run dev
 
 ---
 
-## 📦 What’s inside (Tech Stack)
+## What’s inside (Tech Stack)
 - Frontend: React 18, Vite, Tailwind CSS, Axios
 - Backend: Node.js, Express, dotenv, cors, Cohere AI SDK
 - Dev tools: npm, Vite dev server
 
-## 📁 Project Structure
+## Project Structure
 ```
 recipe-backend/   # Express API (port 4000)
   ├─ controllers/
@@ -53,7 +53,7 @@ recipe-frontend/  # Vite + React frontend
   └─ package.json
 ```
 
-## 🔌 API (backend)
+## API (backend)
 Base URL (development): `http://localhost:4000/api/recipes`
 
 Endpoints:
@@ -70,19 +70,19 @@ curl -X POST http://localhost:4000/api/recipes/generate \
   -d '{"ingredients":["chicken","rice","garlic"]}'
 ```
 
-## 🔒 Environment variables
+## Environment variables
 Create `recipe-backend/.env` with:
 ```env
 COHERE_API_KEY=your_cohere_api_key_here
 ```
 Do NOT commit `.env` to version control. Keep an example file `recipe-backend/.env.example` in the repo instead.
 
-## ✅ Development notes & troubleshooting
+## Development notes & troubleshooting
 - If you see CORS issues, confirm the frontend is talking to `http://localhost:4000` and the backend `cors()` middleware is enabled.
 - If the backend doesn't start, check that `COHERE_API_KEY` is set and valid.
 - Vite dev server runs on 5173 by default; if already in use, it will prompt to use a different port.
 
-## ✨ Future ideas
+## Future ideas
 - Save favorite recipes (DB + auth)
 - Nutritional breakdown and scaling
 - Shareable recipe links or PDF export
@@ -90,9 +90,9 @@ Do NOT commit `.env` to version control. Keep an example file `recipe-backend/.e
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 Akash Sharma
 
-## 📜 License
+## License
 MIT
 
